@@ -1,17 +1,19 @@
 package assignments;
 
-public class Class2Encap {
-	// double amount;
+public class Class2Encap //User class
+{
 	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-	
-		
-		Class1Encap obj = new Class1Encap();
-
-		obj.validatePin();
-		obj.setPin(1212);
-		obj.withdraw(1000);
-	}
+	 private int pin;
+	 
+	  public void setpin(int pin)
+	  {
+	   this.pin=pin;
+	  }
+	 
+	  public int getpin()
+	  {
+	   return pin;
+	  }
+    
 
 }
